@@ -59,7 +59,7 @@ public class ExternalStorageSizePlugin implements FlutterPlugin, MethodCallHandl
 
   public static String getAvailableExternalMemorySizeString() {
     if (externalMemoryAvailable()) {
-      return formatSize(getAvailableExternalMemorySize()) + " free";
+      return formatSize(getAvailableExternalMemorySize());
     } else {
       return "Not present";
     }

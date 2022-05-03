@@ -1,6 +1,6 @@
 name: external_storage_size
 description: A plugin to get Android's External Storage Size.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/andreshgkenility/external_storage_size
 
 environment:
