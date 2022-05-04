@@ -12,7 +12,7 @@ class ExternalStorageSize {
   }
 
   static Future<String?> get externalStorageSize async {
-    if(Platform.isIOS) throw Exception("Not supported for iOS.");
+    if (Platform.isIOS) throw Exception("Not supported for iOS.");
     final String? result = await _channel.invokeMethod(
       'getExternalStorageSize',
     );

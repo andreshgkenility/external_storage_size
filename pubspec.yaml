@@ -1,6 +1,6 @@
 name: external_storage_size
-description: A plugin to get Android's External Storage Size.
-version: 0.0.2
+description: A new Flutter plugin to get Android's External Storage Size (This plugin works for Android only). It uses Android's Enviroment package to obtain External Storage size.
+version: 0.0.3
 homepage: https://github.com/andreshgkenility/external_storage_size
 
 environment:
